@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <style>
+        #map {
+            height: 400px;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        // Variables for map and marker
+        var map;
+        var marker;
+
+        // Function to update the weather data and display it on the page
+        function updateData() {
+            $.ajax({
+                url: '/fetch_data',  // Flask route to fetch updated data
+                type: 'GET',
+                success: function(data) {
+                    // Update the HTML with the received data
+                    $('#timestamp').text('Timestamp: ' + data.timestamp);
+                    $('#temperature').text('Temperature: ' + data.temperature + ' C');
+                    $('#avg_temperature').text('Average Temperature (last ' + data.buffer_size + ' readings): ' + data.avg_temperature + ' C');
+                    $('#humidity').text('Humidity: ' + data.humidity + ' %');
+                    $('#pressure').text('Pressure: ' + data.pressure + ' hPa');
+                    console.log(data.timestamp);
+                    // Update the map with the new coordinates
+                    map.setView([data.latitude, data.longitude], 12);
+                    marker.setLatLng([data.latitude, data.longitude]);
+                    marker.bindPopup('Temperature: ' + data.temperature + ' C').openPopup();
+                }
+            });
+        }
+
+        // Function to update the data and map at regular intervals
+        function updateDataInterval() {
+            updateData();  // Fetch and display the data
+            setTimeout(updateDataInterval, 5000);  // Schedule the next update after 5 seconds
+        }
+
+        // Trigger the initial data update
+        $(document).ready(function() {
+            // Initialize the map
+            map = L.map('map').setView([0, 0], 2);
+
+            // Add a tile layer to the map (using OpenStreetMap tiles)
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: 'Map data © <a href="https://openstreetmap.org">OpenStreetMap</a> contributors',
+                maxZoom: 18,
+            }).addTo(map);
+
+            // Add a marker to the map
+            marker = L.marker([0, 0]).addTo(map);
+
+            // If the mouse is over the marker, show temperature
+            marker.on('mouseover', function(e) {
+                this.openPopup();
+            });
+
+            marker.on('mouseout', function(e) {
+                this.closePopup();
+            });
+
+            updateDataInterval();  // Start updating the data and map at regular intervals
+        });
+    </script>
+</head>
+<body>
+    <!--Show the data on the Web page-->
+    <h1>Weather Station Data</h1>
+    <p id="timestamp">Timestamp: </p>
+    <p id="temperature">Temperature: </p>
+    <p id="avg_temperature">Average Temperature (last readings): </p>
+    <p id="humidity">Humidity: </p>
+    <p id="pressure">Pressure: </p>
+    <div id="map"></div>
+</body>
+</html>

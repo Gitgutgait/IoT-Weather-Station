@@ -1,0 +1,271 @@
+
+Concurrency: 1, Total requests: 100, Run: 1
+Time taken for tests:   1.316 seconds
+Transfer rate:          26.87 [Kbytes/sec] received
+Total transferred:      36200 bytes
+Requests per second:    76.02 [#/sec] (mean)
+
+Concurrency: 1, Total requests: 100, Run: 2
+Time taken for tests:   1.248 seconds
+Transfer rate:          28.32 [Kbytes/sec] received
+Total transferred:      36200 bytes
+Requests per second:    80.11 [#/sec] (mean)
+
+Concurrency: 1, Total requests: 100, Run: 3
+Time taken for tests:   1.170 seconds
+Transfer rate:          30.21 [Kbytes/sec] received
+Total transferred:      36200 bytes
+Requests per second:    85.45 [#/sec] (mean)
+
+Concurrency: 1, Total requests: 100, Run: 4
+Time taken for tests:   1.236 seconds
+Transfer rate:          28.53 [Kbytes/sec] received
+Total transferred:      36100 bytes
+Requests per second:    80.94 [#/sec] (mean)
+
+Concurrency: 1, Total requests: 100, Run: 5
+Time taken for tests:   1.229 seconds
+Transfer rate:          28.78 [Kbytes/sec] received
+Total transferred:      36200 bytes
+Requests per second:    81.40 [#/sec] (mean)
+
+Concurrency: 1, Total requests: 1000, Run: 1
+Time taken for tests:   12.144 seconds
+Transfer rate:          29.11 [Kbytes/sec] received
+Total transferred:      362000 bytes
+Requests per second:    82.35 [#/sec] (mean)
+
+Concurrency: 1, Total requests: 1000, Run: 2
+Time taken for tests:   12.011 seconds
+Transfer rate:          29.39 [Kbytes/sec] received
+Total transferred:      361530 bytes
+Requests per second:    83.25 [#/sec] (mean)
+
+Concurrency: 1, Total requests: 1000, Run: 3
+Time taken for tests:   12.079 seconds
+Transfer rate:          29.27 [Kbytes/sec] received
+Total transferred:      362000 bytes
+Requests per second:    82.79 [#/sec] (mean)
+
+Concurrency: 1, Total requests: 1000, Run: 4
+Time taken for tests:   12.058 seconds
+Transfer rate:          29.28 [Kbytes/sec] received
+Total transferred:      361548 bytes
+Requests per second:    82.93 [#/sec] (mean)
+
+Concurrency: 1, Total requests: 1000, Run: 5
+Time taken for tests:   12.176 seconds
+Transfer rate:          29.00 [Kbytes/sec] received
+Total transferred:      361531 bytes
+Requests per second:    82.13 [#/sec] (mean)
+
+Concurrency: 1, Total requests: 10000, Run: 1
+Time taken for tests:   121.331 seconds
+Transfer rate:          29.10 [Kbytes/sec] received
+Total transferred:      3615849 bytes
+Requests per second:    82.42 [#/sec] (mean)
+
+Concurrency: 1, Total requests: 10000, Run: 2
+Time taken for tests:   120.802 seconds
+Transfer rate:          29.24 [Kbytes/sec] received
+Total transferred:      3617227 bytes
+Requests per second:    82.78 [#/sec] (mean)
+
+Concurrency: 1, Total requests: 10000, Run: 3
+Time taken for tests:   120.864 seconds
+Transfer rate:          29.21 [Kbytes/sec] received
+Total transferred:      3615417 bytes
+Requests per second:    82.74 [#/sec] (mean)
+
+Concurrency: 1, Total requests: 10000, Run: 4
+Time taken for tests:   120.611 seconds
+Transfer rate:          29.28 [Kbytes/sec] received
+Total transferred:      3616015 bytes
+Requests per second:    82.91 [#/sec] (mean)
+
+Concurrency: 1, Total requests: 10000, Run: 5
+Time taken for tests:   120.166 seconds
+Transfer rate:          29.39 [Kbytes/sec] received
+Total transferred:      3616738 bytes
+Requests per second:    83.22 [#/sec] (mean)
+
+Concurrency: 10, Total requests: 100, Run: 1
+Time taken for tests:   1.251 seconds
+Transfer rate:          28.21 [Kbytes/sec] received
+Total transferred:      36137 bytes
+Requests per second:    79.94 [#/sec] (mean)
+
+Concurrency: 10, Total requests: 100, Run: 2
+Time taken for tests:   1.329 seconds
+Transfer rate:          26.59 [Kbytes/sec] received
+Total transferred:      36200 bytes
+Requests per second:    75.23 [#/sec] (mean)
+
+Concurrency: 10, Total requests: 100, Run: 3
+Time taken for tests:   1.307 seconds
+Transfer rate:          27.03 [Kbytes/sec] received
+Total transferred:      36186 bytes
+Requests per second:    76.48 [#/sec] (mean)
+
+Concurrency: 10, Total requests: 100, Run: 4
+Time taken for tests:   1.257 seconds
+Transfer rate:          28.12 [Kbytes/sec] received
+Total transferred:      36200 bytes
+Requests per second:    79.54 [#/sec] (mean)
+
+Concurrency: 10, Total requests: 100, Run: 5
+Time taken for tests:   1.241 seconds
+Transfer rate:          28.46 [Kbytes/sec] received
+Total transferred:      36175 bytes
+Requests per second:    80.57 [#/sec] (mean)
+
+Concurrency: 10, Total requests: 1000, Run: 1
+Time taken for tests:   12.476 seconds
+Transfer rate:          28.30 [Kbytes/sec] received
+Total transferred:      361502 bytes
+Requests per second:    80.15 [#/sec] (mean)
+
+Concurrency: 10, Total requests: 1000, Run: 2
+Time taken for tests:   12.385 seconds
+Transfer rate:          28.54 [Kbytes/sec] received
+Total transferred:      362000 bytes
+Requests per second:    80.75 [#/sec] (mean)
+
+Concurrency: 10, Total requests: 1000, Run: 3
+Time taken for tests:   12.427 seconds
+Transfer rate:          28.45 [Kbytes/sec] received
+Total transferred:      362000 bytes
+Requests per second:    80.47 [#/sec] (mean)
+
+Concurrency: 10, Total requests: 1000, Run: 4
+Time taken for tests:   12.497 seconds
+Transfer rate:          28.26 [Kbytes/sec] received
+Total transferred:      361645 bytes
+Requests per second:    80.02 [#/sec] (mean)
+
+Concurrency: 10, Total requests: 1000, Run: 5
+Time taken for tests:   12.424 seconds
+Transfer rate:          28.41 [Kbytes/sec] received
+Total transferred:      361459 bytes
+Requests per second:    80.49 [#/sec] (mean)
+
+Concurrency: 10, Total requests: 10000, Run: 1
+Time taken for tests:   123.463 seconds
+Transfer rate:          28.61 [Kbytes/sec] received
+Total transferred:      3617240 bytes
+Requests per second:    81.00 [#/sec] (mean)
+
+Concurrency: 10, Total requests: 10000, Run: 2
+Time taken for tests:   123.963 seconds
+Transfer rate:          28.48 [Kbytes/sec] received
+Total transferred:      3615795 bytes
+Requests per second:    80.67 [#/sec] (mean)
+
+Concurrency: 10, Total requests: 10000, Run: 3
+Time taken for tests:   123.964 seconds
+Transfer rate:          28.50 [Kbytes/sec] received
+Total transferred:      3617290 bytes
+Requests per second:    80.67 [#/sec] (mean)
+
+Concurrency: 10, Total requests: 10000, Run: 4
+Time taken for tests:   123.424 seconds
+Transfer rate:          28.61 [Kbytes/sec] received
+Total transferred:      3615545 bytes
+Requests per second:    81.02 [#/sec] (mean)
+
+Concurrency: 10, Total requests: 10000, Run: 5
+Time taken for tests:   123.967 seconds
+Transfer rate:          28.47 [Kbytes/sec] received
+Total transferred:      3613724 bytes
+Requests per second:    80.67 [#/sec] (mean)
+
+Concurrency: 100, Total requests: 100, Run: 1
+Time taken for tests:   1.218 seconds
+Transfer rate:          29.03 [Kbytes/sec] received
+Total transferred:      36199 bytes
+Requests per second:    82.11 [#/sec] (mean)
+
+Concurrency: 100, Total requests: 100, Run: 2
+Time taken for tests:   1.239 seconds
+Transfer rate:          28.53 [Kbytes/sec] received
+Total transferred:      36200 bytes
+Requests per second:    80.70 [#/sec] (mean)
+
+Concurrency: 100, Total requests: 100, Run: 3
+Time taken for tests:   1.232 seconds
+Transfer rate:          28.62 [Kbytes/sec] received
+Total transferred:      36100 bytes
+Requests per second:    81.19 [#/sec] (mean)
+
+Concurrency: 100, Total requests: 100, Run: 4
+Time taken for tests:   1.274 seconds
+Transfer rate:          27.75 [Kbytes/sec] received
+Total transferred:      36200 bytes
+Requests per second:    78.49 [#/sec] (mean)
+
+Concurrency: 100, Total requests: 100, Run: 5
+Time taken for tests:   1.214 seconds
+Transfer rate:          29.13 [Kbytes/sec] received
+Total transferred:      36200 bytes
+Requests per second:    82.39 [#/sec] (mean)
+
+Concurrency: 100, Total requests: 1000, Run: 1
+Time taken for tests:   12.490 seconds
+Transfer rate:          28.29 [Kbytes/sec] received
+Total transferred:      361774 bytes
+Requests per second:    80.06 [#/sec] (mean)
+
+Concurrency: 100, Total requests: 1000, Run: 2
+Time taken for tests:   12.418 seconds
+Transfer rate:          28.42 [Kbytes/sec] received
+Total transferred:      361459 bytes
+Requests per second:    80.53 [#/sec] (mean)
+
+Concurrency: 100, Total requests: 1000, Run: 3
+Time taken for tests:   12.495 seconds
+Transfer rate:          28.29 [Kbytes/sec] received
+Total transferred:      362000 bytes
+Requests per second:    80.03 [#/sec] (mean)
+
+Concurrency: 100, Total requests: 1000, Run: 4
+Time taken for tests:   12.406 seconds
+Transfer rate:          28.43 [Kbytes/sec] received
+Total transferred:      361209 bytes
+Requests per second:    80.60 [#/sec] (mean)
+
+Concurrency: 100, Total requests: 1000, Run: 5
+Time taken for tests:   12.514 seconds
+Transfer rate:          28.21 [Kbytes/sec] received
+Total transferred:      361566 bytes
+Requests per second:    79.91 [#/sec] (mean)
+
+Concurrency: 100, Total requests: 10000, Run: 1
+Time taken for tests:   123.452 seconds
+Transfer rate:          28.60 [Kbytes/sec] received
+Total transferred:      3615915 bytes
+Requests per second:    81.00 [#/sec] (mean)
+
+Concurrency: 100, Total requests: 10000, Run: 2
+Time taken for tests:   123.415 seconds
+Transfer rate:          28.59 [Kbytes/sec] received
+Total transferred:      3613025 bytes
+Requests per second:    81.03 [#/sec] (mean)
+
+Concurrency: 100, Total requests: 10000, Run: 3
+Time taken for tests:   123.675 seconds
+Transfer rate:          28.55 [Kbytes/sec] received
+Total transferred:      3615712 bytes
+Requests per second:    80.86 [#/sec] (mean)
+
+Concurrency: 100, Total requests: 10000, Run: 4
+Time taken for tests:   123.389 seconds
+Transfer rate:          28.63 [Kbytes/sec] received
+Total transferred:      3616961 bytes
+Requests per second:    81.04 [#/sec] (mean)
+
+Concurrency: 100, Total requests: 10000, Run: 5
+Time taken for tests:   123.456 seconds
+Transfer rate:          28.60 [Kbytes/sec] received
+Total transferred:      3615095 bytes
+Requests per second:    81.00 [#/sec] (mean)
+
